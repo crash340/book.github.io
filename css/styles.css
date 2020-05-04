@@ -1,0 +1,167 @@
+.land{
+  background-color:purple;
+
+height: 500px;
+}
+
+body{
+  background-color: darkgrey;
+  position: absolute;
+}
+
+
+#navbar{
+  background-color: black;
+  padding: 20px;
+}
+.heart1{
+  background-color: purple;
+  position: absolute;
+  left:50px;
+  top:70px;
+}
+.heart2{
+  background-color: purple;
+  position: absolute;
+  left:890px;
+  top:70px;
+
+}
+a{
+  padding: 10px;
+  text-transform: uppercase;
+  color:white;
+
+}
+
+.row{
+  display: flex;
+}
+
+.pizza-img-hidden{
+  display:none;
+}
+
+
+.main-heading{
+    background-image: url("img/book.jpg");
+    background-color: purple;
+    position: absolute;
+    left:470px;
+    top:70px;
+
+
+}
+.k{
+  background-color:purple;
+  height: 250px;
+  position: absolute;
+  top: 850px;
+
+  font-size: 1.2em;
+  color: black ;
+  font-weight: bold;
+
+}
+.jk{
+  background-color:darkgrey;
+  height: 250px;
+  position: absolute;
+  top: 520px;
+  left:565px;
+
+
+  color: black ;
+  font-weight: bold;
+}
+.paragraph{
+  background-color:purple;
+  height: 250px;
+  position:relative;
+  top:560px;
+}
+
+.welcome{
+  position: relative;
+ top: 20px;
+ font-size: 1.2em;
+ color: black ;
+ font-weight: bold;
+
+}
+.a{
+  font-weight: bold;
+}
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 40px;
+  background-color: black;
+}
+.r{
+  position: relative;
+ top: 20px;
+ color: black ;
+ font-weight: bold;
+
+}
+
+.c{
+position: absolute;
+left: 600px;
+top:810px;
+
+color:black;
+font-weight: bold;
+
+}
+.jumbotron{
+  background-image: url("img/logo.png");
+}
+#output1{
+  position:absolute;
+  top: 420px;
+  left: 400px;
+  font-size: 1.4em;
+}
+#output2{
+  position: absolute;
+  top: 460px;
+  left: 400px;
+  font-size: 1.4em;
+
+}
+#output3{
+  position: absolute;
+  top: 500px;
+  left: 400px;
+  font-size: 1.4em;
+
+}
+#output4{
+  position: absolute;
+  top:545px;
+  left: 400px;
+  font-size: 1.4em;
+
+}
+
+.b1{
+  background-color:green;
+}
+#output4{
+  display: none;
+}
+.make{
+  font-family:'Anton';
+}
+#output5{
+  position: absolute;
+  top:580px;
+  left: 400px;
+  font-size: 1.4em;
+
+}

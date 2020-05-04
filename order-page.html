@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+  <body class = "b1">
+    <h1 class= "make">MAKE YOUR PIZZA</h1>
+    <div class="container">
+
+    <form>
+      <label for="big">Size of pizza</label>
+      <select class="form-control" id = "size">
+        <option value="big">Big</option>
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+      </select>
+      <br>
+      <label for="big">Type of crust</label>
+      <select class="form-control" id= "crust">
+        <option value="crispy">Crispy</option>
+        <option value="stuff">Stuff</option>
+        <option value="Gluten-free">Gluten-free</option>
+      </select>
+      <label for="topping">Topping</label>
+      <select class="form-control" id="topping">
+        <option value="chicken">Chicken</option>
+        <option value="pineapple">Pineapple</option>
+        <option value="cheese">Cheese</option>
+
+        </optgroup>
+
+      </select>
+      <label for="pizza-no">How many pizzas</label>
+      <input type="number" class = "form-control" id = "no">
+      <br>
+      <button type="submit" class= "btn btn-primary" id = "action">Order</button>
+      <button type="submit" class= "btn btn-info" name="button" id= "money">Checkout</button>
+
+    </form>
+    <div id="r">
+      <h3>size:</h3>
+      <div id="output1"></div>
+      <h3>topping:</h3>
+      <div id="output2"></div>
+      <h3>crust:</h3>
+      <div id="output3"></div>
+      <h3>total:</h3>
+      <div id="output4"></div>
+      <h3>Location:</h3>
+      <div id="output5"></div>
+
+
+    </div>
+  </div>
+
+
+
+  </body>
+</html>
